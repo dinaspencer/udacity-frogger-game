@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+}
+
+.score-panel {
+    width: 200px;
+    height: 400px;
+    font-family: "Raleway",sans-serif;
+    margin-bottom: 10px;
+    float: left;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.score-panel h3 {
+    margin-left: -50px;
+}
+
+.score-panel .hearts {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+
+}
+
+.score-panel .hearts li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.timer-min {
+    padding-left: 50px;
+}
+
+.timer-millisec {
+    padding-right: 50px;
+    display: none;
+
+}
+
+
+.score-panel.endgame {
+    width: 500px;
+    height: 600px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+    color: black;
+}
+
+.score-panel.endgame h3 {
+    margin-left: -30px;
+}
+
+
+button {
+    width: 300px;
+    height: 50px;
+    background-color: #02ccba;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: none;
+    vertical-align: center;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    cursor: pointer;
+}
+
+button.playagain {
+    display: none;
+}
+
